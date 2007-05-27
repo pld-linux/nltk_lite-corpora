@@ -1,4 +1,5 @@
 Summary:	Natural Language Toolkit Database
+Summary(pl.UTF-8):	Baza danych dla pakietu Natural Language Toolkit
 Name:		nltk_lite-corpora
 Version:	0.7.5
 Release:	1
@@ -15,10 +16,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 The Natural Langauge Toolkit (NLTK-Lite) database.
 
+%description -l pl.UTF-8
+Baza danych dla pakietu Natural Language Toolkit (NLTK-Lite).
+
 %prep
 %setup -qc
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
